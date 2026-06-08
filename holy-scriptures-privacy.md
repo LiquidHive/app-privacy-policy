@@ -12,7 +12,7 @@ Holy Scriptures ("the App") is a fully offline Bible study application. We respe
 
 - **No analytics**: The App does not use any analytics SDKs (e.g., Google Analytics, Firebase Analytics).
 - **No crash reporting**: The App does not use any crash reporting services.
-- **No advertising**: The App does not display advertisements or use any advertising SDKs.
+- **Advertising**: The App uses Google AdMob to serve advertisements. AdMob may collect and use data as described in their privacy policy.
 - **No account system**: The App does not require or support user accounts or registration.
 - **No network requests**: The App functions entirely offline. The only exceptions are user-initiated actions:
   - Sending feedback via the device's default email client (a `mailto:` link)
@@ -28,12 +28,16 @@ All data used by the App is stored locally on your device and never leaves it:
 
 ## Third-Party Services
 
-The App does not integrate with any third-party services that collect data. The only external links are:
+The App integrates with the following third-party services:
+
+- **Google AdMob**: Used to serve advertisements. AdMob may collect device identifiers, usage data, and approximate location to provide personalized ads. For more information, see [Google's Privacy Policy](https://policies.google.com/privacy).
+
+The App also includes the following user-initiated external links:
 
 - **PayPal donation link**: Opens in the device's browser when you choose to support the developer.
 - **Email feedback link**: Opens the device's default email client when you choose to send feedback.
 
-These are purely user-initiated actions and no data is sent automatically.
+These links are purely user-initiated actions and no data is sent automatically.
 
 ## Children's Privacy
 
