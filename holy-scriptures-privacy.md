@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: June 15, 2026**
+**Last updated: August 27, 2026**
 
 ## Overview
 
@@ -8,11 +8,11 @@ Holy Scriptures ("the App") is a Bible study application. We respect your privac
 
 ## Data Collection
 
-**The App does not collect, sell, or share your personal data with third parties.** Specifically:
+**The App does not sell or share your personal data with third parties.** Specifically:
 
 - **No analytics**: The App does not use any analytics SDKs (e.g., Google Analytics, Firebase Analytics).
 - **No crash reporting**: The App does not use any crash reporting services.
-- **No advertising**: The App does not display advertisements or use any advertising SDKs.
+- **Advertising**: The App displays advertisements served by Google AdMob. AdMob collects and processes data (such as your advertising identifier and device information) to serve ads. Google's Privacy Policy governs how this data is handled.
 
 ## Account and Cloud Sync (Optional)
 
@@ -40,6 +40,7 @@ If you choose to enable cloud sync by signing in with Google:
 
 The App uses the following third-party services:
 
+- **Google AdMob** (Google): Used to display advertisements. Google's Privacy Policy applies to data collected for ad serving.
 - **Firebase Authentication** (Google): Used for optional sign-in. Google's privacy policy applies to authentication data.
 - **Firebase Firestore** (Google): Used for optional cloud data sync. Google's privacy policy applies to stored data.
 - **Google Generative AI (Gemini)**: Used for the optional AI Bible Study feature when you provide your own API key. No app data is sent to Google unless you explicitly send a chat message.
